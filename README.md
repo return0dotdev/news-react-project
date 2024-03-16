@@ -6,6 +6,8 @@ RNN News is a web application to fetch the news if you want
 
 This project make by react.ts vite
 
+!!** you need to install node ver. ^18.0.0 || >= 20.0.0 in your device before
+
 Clone the repo and run
 ```bash
  yarn install
