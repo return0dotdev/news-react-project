@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# RNN News
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RNN News is a web application to fetch the news if you want
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project make by react.ts vite
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone the repo and run
+```bash
+ yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+you need to have a api key 
+
+You can register for the free plan on https://gnews.io/ to obtain the API Key. This key will be used to implement the webpage using these APIs.
+
+then you can search "YOUR_API_KEY" in project and replace your api key 
+
+or using mock data while change variable USING_MOCK to 'true' in:
+
+news-react-project\src\api\index.ts
+
+finish! you can run project with
+
+```bash
+ yarn dev
+```
+
+Thank you 
