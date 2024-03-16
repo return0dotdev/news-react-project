@@ -1,0 +1,19 @@
+{
+  "logo": "RNN",
+  "privacy-policies": "Privacy Policies",
+  "term-of-use": "Term of Use",
+  "copyright": "©2024 RNN. All rights reserved.",
+  "news": "News",
+  "search": "Search",
+  "categories": "Categories",
+  "start-date": "Start Date",
+  "end-date": "End Date",
+  "modal-handle-errors": {
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "notfound-title": "Not Found",
+    "notfound-details": "Would you like to reset all of your search parameter to default data?",
+    "server-error-title": "System error",
+    "server-error-details": "Would you please waiting for me a few minute? and try again"
+  }
+}

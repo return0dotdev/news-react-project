@@ -1,0 +1,19 @@
+{
+  "logo": "RNN",
+  "privacy-policies": "隱私權政策",
+  "term-of-use": "使用條款",
+  "copyright": "©2024 RNN. All rights reserved.",
+  "news": "訊息",
+  "search": "搜尋",
+  "categories": "類別",
+  "start-date": "開始日期",
+  "end-date": "結束日期",
+  "modal-handle-errors": {
+    "ok": "好的",
+    "cancel": "取消",
+    "notfound-title": "未找到",
+    "notfound-details": "您想將所有搜尋結果重設為預設資料嗎？",
+    "server-error-title": "系統錯誤",
+    "server-error-details": "請您等我幾分鐘好嗎？然後再試一次"
+  }
+}
