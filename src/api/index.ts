@@ -3,7 +3,7 @@ import { dataMocks } from "../mocks/response";
 import { HTTP_STATUS } from "../constants";
 
 // you can change USING_MOCK value = true; when you want to using mock mode
-const USING_MOCK: boolean = true;
+const USING_MOCK: boolean = false;
 
 const API_KEY = "YOUR_API_KEY";
 const PATH = "https://gnews.io/api/v4/top-headlines";
