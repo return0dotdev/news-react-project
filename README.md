@@ -13,15 +13,17 @@ Clone the repo and run
  yarn install
 ```
 
-you need to have a api key 
+**You need to have a api key.
 
 You can register for the free plan on https://gnews.io/ to obtain the API Key. This key will be used to implement the webpage using these APIs.
 
-then you can search "YOUR_API_KEY" in project and replace your api key 
+Then you can search "YOUR_API_KEY" in project and replace your api key
 
-or using mock data while change variable USING_MOCK to 'true' in:
+or using mock data by change variable USING_MOCK: boolean = true in:
 
-news-react-project\src\api\index.ts
+..\src\api\index.ts
+
+but mock mode can't be fetch data from api
 
 finish! you can run project with
 
