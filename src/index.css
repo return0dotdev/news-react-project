@@ -197,12 +197,15 @@ body {
 
 .image {
   border-radius: 10px 10px 0px 0px;
-  height: 20rem;
+  max-height: 15rem;
+  overflow: hidden;
 }
 
 .image img {
   border-radius: 10px 10px 0px 0px;
-  height: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .details {
@@ -273,6 +276,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .image {
+    max-height: 15rem;
+  }
+
   .logo {
     font-size: 1.5rem;
   }
@@ -301,6 +308,7 @@ body {
   }
 
   .content-wrapper {
+    width: 1080px;
     padding: 1rem;
   }
 }
@@ -315,5 +323,32 @@ body {
   .content-wrapper {
     width: 1080px;
     padding: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .image {
+    max-height: 12rem;
+  }
+
+  .ant-picker-panel:last-child .ant-picker-date-panel {
+    display: none !important;
+  }
+
+  .ant-picker-panel:first-child
+    .ant-picker-date-panel
+    .ant-picker-header-next-btn,
+  .ant-picker-panel:first-child
+    .ant-picker-date-panel
+    .ant-picker-header-super-next-btn {
+    visibility: initial !important;
+  }
+
+  .ant-picker-panel.ant-picker-range-wrapper {
+    min-width: 288px !important;
+  }
+
+  .ant-picker-presets {
+    display: none !important;
   }
 }
